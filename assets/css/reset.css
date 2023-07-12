@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html {
+    font-size: 62.5%;
+    position: relative;
+}
+  
+html,body {
+    min-height: 100%;
+}
+  
+ul {
+    list-style: none;
+}
+  
+img {
+    user-select: none;
+}
+
+input,
+button {
+  font: inherit; 
+  border: 0;
+  background: transparent;
+}
+
+input:focus,
+button:focus {
+  outline: 0;
+}
+
+button {
+  display: flex;
+  user-select: none;
+}
