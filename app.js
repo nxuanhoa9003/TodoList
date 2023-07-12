@@ -1281,7 +1281,6 @@ const app = {
           );
         });
 
-        console.log(this.Todos);
         break;
     }
 
